@@ -1,0 +1,38 @@
+.card-info {
+    padding-right: 24px;
+    padding-left: 16px;
+    padding-top: 10px;
+    line-height: 26px;
+    font-size: 14px;
+    padding: 16px;
+}
+
+.card-info span {
+    color: grey;
+    font-weight: bold;
+}
+.card {
+    margin: 15px 0 15px 15px;
+    width: 260px;
+    display: inline-block;
+    margin-bottom: 20px;
+    user-select: none;
+    height: 330px;
+}
+
+.card img {
+    padding-left: 0;
+    width: 100%;
+    height: 194px;
+    object-fit: contain;
+}
+
+.card h1 {
+    margin: 0;
+    text-align: left;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    line-height: 44px;
+}

@@ -1,0 +1,15 @@
+<app-section title="Created Courses">
+
+    <app-card *ngFor="let item of data" 
+        title={{item.title}}
+        img={{item.img}}
+        description={{item.description}}>
+    </app-card>
+
+    <app-footer>
+        <div class="flex-center"><button class="button">See all my courses</button></div>
+    </app-footer>
+
+    <app-fab top="20px" right="20px"><span class="icon">+</span><span>New</span></app-fab>
+
+</app-section>

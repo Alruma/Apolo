@@ -1,0 +1,17 @@
+
+[{
+    "title": "PHP",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    "img": "assets/1200px-PHP-logo.svg.png"
+},
+  {
+    "title": "JS",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    "img": "assets/JavaScript-logo-600x375.png"
+},
+  {
+    "title": "PHP",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    "img": "assets/1200px-PHP-logo.svg.png"
+}
+]

@@ -1,0 +1,25 @@
+.section {
+    position: relative;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    width: 90%;
+    margin-left: 70px;
+}
+
+.section h1,
+.section h2 {
+    text-align: center;
+    color: #707070;
+    margin: auto;
+    font-size: 65px;
+    text-shadow: lightgrey 2px 2px 6px;
+    font-weight: 400;
+}
+
+.section h2 {
+    font-size: 33px;
+}
+
+
