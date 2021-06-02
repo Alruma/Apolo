@@ -12,7 +12,6 @@ body {
     background-color: snow;
 }
 
-
 .label {
     height: 50px;
     font-weight: bold;
@@ -28,20 +27,6 @@ body {
     text-align: center;
 }
 
-
-.button.add {
-    position: absolute;
-    padding-left: 30px;
-    right: 0;
-    flex-grow: 0;
-}
-
-.section .footer {
-    display: flex;
-    flex-flow: row;
-    position: relative;
-}
-
 .button {
     cursor: pointer;
     color: white;
@@ -52,14 +37,6 @@ body {
     line-height: 36px;
     user-select: none;
     padding: 0px 16px;
-}
-
-.button.add .icon {
-    position: absolute;
-    left: 10px;
-    color: white;
-    font-size: 30px;
-    line-height: 36px;
 }
 
 .elevation-8dp {

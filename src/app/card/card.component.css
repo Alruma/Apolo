@@ -1,4 +1,4 @@
-.card-info {
+.card__info {
     padding-right: 24px;
     padding-left: 16px;
     padding-top: 10px;
@@ -7,10 +7,11 @@
     padding: 16px;
 }
 
-.card-info span {
+.card__info span {
     color: grey;
     font-weight: bold;
 }
+
 .card {
     margin: 15px 0 15px 15px;
     width: 260px;
@@ -20,14 +21,14 @@
     height: 330px;
 }
 
-.card img {
+.card__img {
     padding-left: 0;
     width: 100%;
     height: 194px;
     object-fit: contain;
 }
 
-.card h1 {
+.card__title {
     margin: 0;
     text-align: left;
     padding-left: 16px;
