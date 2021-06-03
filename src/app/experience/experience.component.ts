@@ -1,21 +1,24 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { coursesMock, MockService } from '../mock.service';
+
 
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.css']
 })
-export class ExperienceComponent implements OnInit {
+export class ExperienceComponent {
 
-  public data : Array<{title:string, description:string, img : string}> = [];
+  public data: Array<{ title: string, description: string, img: string }> = [];
+  public experienceObs: Observable<coursesMock>;
 
-  async getData(){
-    const res = await fetch('assets/mock2.json');
-    this.data = await res.json()
-  }
-
-  ngOnInit(): void {
-    this.getData();
+  constructor(private MockService: MockService) {
+    this.experienceObs = this.MockService.getExperience();
+    this.experienceObs.subscribe(course => {
+      this.data = course;
+    }
+    )
   }
 
 }
